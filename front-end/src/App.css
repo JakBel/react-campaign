@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App h1 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(9, 121, 87);
+    background: linear-gradient(
+        90deg,
+        rgba(9, 121, 87, 1) 5%,
+        rgba(0, 200, 255, 1) 74%
+    );
+}
